@@ -1,0 +1,665 @@
+
+*{margin: 0;
+border: 1;}
+
+
+    #header{  
+    background-color: #f5f5f5;
+    display:flex;
+    padding: 15px 70px;
+    justify-content: space-between;
+    
+}
+
+
+ #header-left{
+    display: flex;
+    font-size: 14px;
+    font-family:"Cairo", sans-serif ;
+    color: #1c1c1c;
+    position: relative;
+ }
+
+ #email-header{
+   display: flex;
+ }
+
+#email-header svg{
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+   
+ }
+ 
+ .header-divisao{
+    height: 23px;
+    width: 1px;
+    background-color: #d3d3d3;
+    margin-right: 15px;
+    margin-left: 15px;
+ }
+
+
+ #header-rigth{
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  font-family:"Cairo", sans-serif ;
+  color: #1c1c1c;
+  position: relative;
+ }
+
+ #header-rigth svg{
+    margin-top: 5px;
+    margin-right: 10px;
+    height: 12px;
+    width: 12px;
+ }
+
+ #flags{
+    display: flex;
+    gap: 10px;
+ }
+
+ #flags img{
+    width: 35px;
+ }
+
+ #login{
+    display: flex;
+    gap: 10px;
+ }
+
+
+
+ #header-row2{
+    display: flex;
+ }
+
+ #header-row2 img{
+    padding: 15px 70px;
+ }
+
+ #pages{
+    padding: 25px 70px;
+    justify-content: space-between;
+ }
+
+ #pages a{
+    gap: 20px;
+    font-size: 14px;
+    font-family:"Cairo", sans-serif ;
+    color: #1c1c1c;
+    position: relative;
+    padding: 0px 40px;
+    text-decoration: none;
+    font-weight: 800;
+ }
+
+ #shoppingbag{
+    display: flex;
+    padding: 25px 70px;
+ }
+
+ #shoppingbag svg{
+    height: 18px;
+    width: 18px;
+    justify-content: space-between;
+    padding: 0px 10px;
+    
+ }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #aside-top {
+    display: flex;
+    align-items: center;
+    background-color: #7fad39;
+    color: #f6f6f6;
+    gap: 15px;
+    justify-content: center;
+    height: 45px;
+    font-family: Cairo;
+    cursor: pointer;
+}
+
+#aside-top .fa-chevron-down {
+    font-size: 10px;
+}
+
+#aside-top .fa-bars {
+    font-size: 15px;
+}
+
+aside {
+    grid-column: 2;
+}
+
+aside li {
+    list-style: none;
+}
+
+aside a {
+    text-decoration: none;
+    color: #1c1c1c;
+    margin-left: 20px;
+}
+
+aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Cairo;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+
+#search-bar {
+    display: flex;
+    margin-left: 35px;
+    max-height: 45px;
+    width: 85%;
+    border: 1px solid #ebebeb;
+    align-items: center;
+    padding: 0 0 0 20px;
+}
+
+#search-categories {
+    display: flex;
+    font-family: Cairo;
+    align-items: center;
+    cursor: pointer;
+}
+
+#search-categories h3 {
+    font-size: 16px;
+    margin-right: 35px;
+}
+
+#search-categories .division-bar {
+    height: 19px;
+    background-color: #e6e6e6;
+    width: 0.5px;
+}
+
+#search-categories .fa-solid {
+    font-size: 9px;
+    margin-right: 15px;
+}
+
+#search-input input[type=text] {
+    font-size: 16px;
+    font-family: Cairo;
+    border: none;
+    outline: none;
+}
+
+#search-btn {
+    background-color: #7fad39;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-family: Cairo;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+#call-info {
+    display: flex;
+}
+
+#phone-icon-container {
+    background-color: #f5f5f5;
+    height: 50px;
+    width: 20%;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 30px;
+}
+
+#phone-icon-container .fa-solid {
+    color: #7fad39;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+#phone-number {
+    font-family: Cairo;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#phone-number h3 {
+    font-size: 17px;
+}
+
+#phone-number p {
+    font-size: 14px;
+    color: #6f6f6f;
+}
+
+::placeholder {
+    padding-inline-start: 20px;
+}
+
+#banner {
+    margin-top: 40px;
+    background-image: url(banner-_1_.png);
+    background-repeat: no-repeat;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    margin-left: 35px;
+    height: 431px;
+}
+
+#banner-text {
+    padding: 10%;
+}
+
+#banner-text h1 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #7fad39;
+    font-family: Cairo;
+    margin-bottom: 14px;
+}
+
+
+#banner-text h2 {
+    font-size: 46px;
+    color: #252525;
+    line-height: 52px;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: Cairo;
+}
+
+#banner-text p {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    padding-bottom: 15px;
+}
+
+#btn-shopnow {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 28px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #7fad39;
+    letter-spacing: 2px;
+    font-family: "Cairo", sans-serif;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+
+
+.container-featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 50px;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+
+.container-featured h1 {
+    color: #252525;
+    font-weight: 400;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.container-featured p {
+    color: #252525;
+    font-weight: 800;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.arrow-box {
+    padding: 25px 10px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+}
+
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.featured-section {
+    text-align: center;
+    grid-column-start: 3;
+    font-family: "Cairo", sans-serif;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 80px;
+    height: 4px;
+    background-color: #7fad39;
+    margin: 0 auto 20px auto;
+}
+
+.category-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.category-list li {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.category-list li:first-child {
+    width: 30px;
+    height: 2px;
+    background-color: #7fad39;
+}
+
+
+.category-link:hover {
+    text-decoration: underline;
+}
+
+.images-boxes {
+    grid-column-start: 2;
+}
+
+.banner-featured {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.latest-products {
+    display: flex;
+    align-items: center;
+    grid-column-start: 3;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.latest-products h2 {
+    font-weight: 700;
+    color: #1c1c1c;
+    margin-bottom: 45px;
+    font-family: "Cairo", sans-serif;
+    font-size: 24px;
+}
+
+.latest-products h1 {
+    color: #252525;
+    font-weight: 400;
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.latest-products p {
+    color: #252525;
+    font-weight: 800;
+    font-family: "Cairo", sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.container-blog {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding-left: 50px;
+    gap: 20px;
+
+}
+
+.container-blog h1 {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 0 15px 0;
+    text-align: left;
+}
+.container-blog svg { height: 20px;
+padding-right: 10px;
+fill: #b2b2b2;}
+
+.container-blog p {
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 700;
+    font-family: "Cairo", sans-serif;
+    text-align: left;
+}
+
+
+.meta-info {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #b2b2b2;
+    font-family: "Cairo", sans-serif;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.info-item img {
+    width: 20px;
+
+    height: 20px;
+    margin-right: 5px;
+
+}
+
+.info-item span {
+    color: #b2b2b2;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #F3F6FA;
+}
+
+.first-row {
+    grid-column-start: 2;
+    padding-top: 50px;
+}
+
+.first-row h1 {
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.second-row {
+    padding-top: 50px;
+    grid-column-start: 3;
+    font-family: "Cairo", sans-serif;
+    padding-left: 40px;
+}
+
+.second-row h2 {
+    font-size: 16px;
+}
+
+.second-row h1 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+
+.third-row {
+    padding-top: 80px;
+    grid-column-start: 4;
+    font-family: "Cairo", sans-serif;
+
+}
+
+.third-row h1 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 10% 20% 20% 15% 40% 5%;
+    grid-template-rows: 2% 14%;
+    margin-top: 10px;
+}
+
+.fourth-row{
+    padding-top: 80px;
+    grid-column-start: 5;
+    font-family: "Cairo", sans-serif;
+}
+.fourth-row h2 {
+    font-size: 16px;
+}
+.fourth-row h1 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+
+.subscribe-input {
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+}
+
+.subscribe-button {
+    background-color: #82b440;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: "Cairo", sans-serif;
+font-weight: bold;
+}
+
+
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    color: #b2b2b2;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.social-icon svg {
+    height: 20px;
+    transition: filter 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #82b440;
+    fill: white;
+}
+
+.last-div { font-family: "Cairo", sans-serif;
+    color: #6f6f6f;
+    padding-left: 10%;
+    padding-top: 2%;
+    background-color: #F3F6FA;
+}
+
+.last-div img {
+    padding-left:20%;
+}
